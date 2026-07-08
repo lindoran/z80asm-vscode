@@ -39,6 +39,16 @@
                     ".mac"
                 ],
                 "configuration": "./z80-asm.configuration.json"
+            },
+            {
+                "id": "z80-asm-listing",
+                "aliases": [
+                    "Z80 Assembly Listing"
+                ],
+                "extensions": [
+                    ".lst"
+                ],
+                "configuration": "./z80-asm.configuration.json"
             }
         ],
         "grammars": [
@@ -46,6 +56,11 @@
                 "language": "z80-asm",
                 "scopeName": "source.asm.z80",
                 "path": "./syntaxes/z80-asm.tmLanguage"
+            },
+            {
+                "language": "z80-asm-listing",
+                "scopeName": "source.asm.z80.listing",
+                "path": "./syntaxes/z80-asm-listing.tmLanguage"
             }
         ]
     }
